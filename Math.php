@@ -8,5 +8,10 @@
 
 class Math
 {
+    public static function multiply($first, $second){
+        return $first*$second;
+    }
+
 
 }
+
