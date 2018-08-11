@@ -8,7 +8,7 @@
 
 class Math
 {
-    public static function multiply($first, $second){
+    public static function devision($first, $second){
         return $first/$second;
     }
 
