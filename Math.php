@@ -13,7 +13,7 @@ class Math
             return $first/$second;
         }  catch (Exception $e) {
             echo 'Выброшено исключение: ',  $e->getMessage(), "\n";
-            echo 'Выброшено исключение "\n";
+
         }
 
     }
