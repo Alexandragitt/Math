@@ -8,14 +8,19 @@
 
 class Math
 {
-    public static function devision($first, $second){
+    public static function devision($first, $second)
+    {
         try {
-            return $first/$second;
-        }  catch (Exception $e) {
-            echo 'Выброшено исключение: ',  $e->getMessage(), "\n";
+            return $first / $second;
+        } catch (Exception $e) {
+            echo 'Выброшено исключение: ', $e->getMessage(), "\n";
 
         }
-
+    } // Хуево смержили чутка
+    public static function multiply($first, $second){
+        return $first+$second;
     }
+
+   // тебе надо только devision? а Multiply не надо? ТЕПЕРЬ ПУШИШЬ ЭТО В ТУ ВЕТКУ НА РЕМОУТЕ, КОНФЛИКТ РЕШЕН
 
 }
